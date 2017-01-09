@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AboutView</string>
+    <string name="vivo_charge">ViVoCharge</string>
+    <string name="meizu_charge">MeiZuCharge</string>
+    <string name="smart_charge">SmartisanCharge</string>
+    <string name="vivo_slogan">充电五分钟  通话两小时</string>
+    <string name="meizu_slogan">轻易不说完美</string>
+    <string name="smart_slogan">天生骄傲</string>
+
+
+</resources>
