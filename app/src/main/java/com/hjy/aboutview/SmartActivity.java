@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.hjy.aboutview.view.SmartView;
 
 /**
- * Created by windwos on 2016/12/27.
+ * Created by hjy on 2016/12/27.
  */
 
 public class SmartActivity extends AppCompatActivity {

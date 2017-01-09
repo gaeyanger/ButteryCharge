@@ -1,7 +1,7 @@
 package com.hjy.aboutview.bean;
 
 /**
- * Created by windwos on 2016/12/26.
+ * Created by hjy on 2016/12/26.
  */
 
 public class Point {

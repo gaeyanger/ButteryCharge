@@ -16,6 +16,10 @@ import com.hjy.aboutview.callback.CoolViewCallback;
 import com.hjy.aboutview.view.CircleView;
 import com.hjy.aboutview.view.CoolView;
 
+/**
+ * Created by hjy on 2016/12/26.
+ */
+
 public class MainActivity extends AppCompatActivity implements CoolViewCallback,View.OnClickListener{
 
     private LinearLayout outLayout,firstLayout,secondLayout,thirdLayout;

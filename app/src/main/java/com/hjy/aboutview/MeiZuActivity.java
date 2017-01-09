@@ -12,7 +12,7 @@ import android.view.Window;
 import com.hjy.aboutview.view.MeiZuView;
 
 /**
- * Created by windwos on 2016/12/27.
+ * Created by hjy on 2016/12/27.
  */
 
 public class MeiZuActivity extends AppCompatActivity {

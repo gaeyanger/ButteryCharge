@@ -12,12 +12,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_f8e73f105087fdebb57dfbcd9f84658b24774813.jar" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_62ae898299d22158d5c3507162ca9d9b6c667456.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_43c008aa9828548d5d1b89db5b9c215b8ad8e828.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,21 +57,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6ecb43d463173071c834b7d0683962eec11181bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_0138899aa15dbc9fe1bf934b04d35b3c1697a034.jar" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_ae4a49ceacd434e873167cae4e755349a3a5a3f1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -72,33 +72,6 @@
         revision="25.0.2"
         sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
         <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_9ed2d981483d765d6cf63a872b896fc0f4b09261.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5b969614b5105770fb17b27363ed845eaf70d0a8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_1bce93ff24ee558620d26e6284999dc0ebf05cac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_57bbe6966e15c3e0c37f9f813055fa03cc1429ad.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,6 +102,177 @@
     </item>
     <item
         is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_556adf29ec2dcce816b851579872ad707e59492b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_609ea167cc65c02339a1a4f6356e0930f06f5df4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_f3f4d4d90414ac4de1d39b7016885b36dd82ded1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_fbb2d5121fa4c82dedcc712f0e3c718f358f6de4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_f8e73f105087fdebb57dfbcd9f84658b24774813.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_bc39ffee09d4e483123339184642925536eb7940.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_56c749589574a780ee52cc8269a4d9edb9ef3df2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_57e2d76f6f7a8f3e35f4762aaf5c8438f5b70553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_adec4383f622059c006b977c76b0c699cf9e70ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_101aba031dfdc503d822df8dd6d01790235b9468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_d59448ea3b7db780703e3f805d6935d3cce3e30f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6ecb43d463173071c834b7d0683962eec11181bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_0138899aa15dbc9fe1bf934b04d35b3c1697a034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5b969614b5105770fb17b27363ed845eaf70d0a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_1bce93ff24ee558620d26e6284999dc0ebf05cac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_0d7e70aa278a905072d36b30bc16341b16c82a6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_57bbe6966e15c3e0c37f9f813055fa03cc1429ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_12755322da3f17110be3084e11c0bbd0f095f1cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_3cddd7c2b8b7cd30977e593962ade4b354570524.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\aboutView\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -147,6 +291,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_05079cfadfb8a12084d31b58c169b46a582a57f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -156,12 +309,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="G:\aboutView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="G:\aboutView\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_f3f4d4d90414ac4de1d39b7016885b36dd82ded1.jar" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="G:\hjygithub\ButteryCharge\ButteryCharge\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_b0338c1db9ed44116a95d7adf8f9af9f5b96e35d.jar" />
     </item>
 
 </items>

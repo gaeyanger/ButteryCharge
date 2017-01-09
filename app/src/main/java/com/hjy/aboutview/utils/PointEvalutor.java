@@ -5,7 +5,7 @@ import android.animation.TypeEvaluator;
 import com.hjy.aboutview.bean.Point;
 
 /**
- * Created by windwos on 2016/12/26.
+ * Created by hjy on 2016/12/26.
  */
 
 public class PointEvalutor implements TypeEvaluator {

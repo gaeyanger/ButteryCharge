@@ -3,19 +3,23 @@
  */
 package com.hjy.aboutview.view;
 
-import android.R.integer;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.RectF;
+import android.os.Handler;
+import android.os.Message;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
+
+import java.lang.ref.WeakReference;
 
 /**
  * @author 黄家洋
- *
+ *         <p>
  *         2016年7月15日上午11:06:22
  */
 public class VivoView extends View {
@@ -33,8 +37,12 @@ public class VivoView extends View {
     private float tvSize = 80;
     // 刻度的进度
     private float progress;
-    private boolean change = true;
+    private boolean run = true;
     private int count = 0;
+    private Handler handler;
+    private final int WHAT = 0, DELETETIME = 100;
+
+
 
     /**
      * @param context
@@ -64,6 +72,7 @@ public class VivoView extends View {
     }
 
     private void initView() {
+        handler = new MyHandler(this);
         mSmileRing = new Paint();
         mSmileRing.setAntiAlias(true);
         mSmileRing.setStrokeWidth(5);
@@ -211,18 +220,15 @@ public class VivoView extends View {
         canvas.drawArc(mRectF, startAngle4, sweepAngle, false, mBigRing);
     }
 
-    public void setData(int startAngle, float d) {
+    public void setData(int startAngle) {
         this.startAngle = startAngle;
         this.startAngle2 = 360 - startAngle;
         this.startAngle3 = startAngle;
         this.startAngle4 = 360 - startAngle;
         if (count != 10) {
             count++;
-            change = false;
         } else {
             count = 0;
-            change = true;
-
             if (progress < 72) {
                 progress++;
             } else {
@@ -230,6 +236,47 @@ public class VivoView extends View {
             }
         }
         postInvalidateDelayed(500);
+    }
+
+    public void startAnimation() {
+        handler.removeMessages(WHAT);
+        handler.sendEmptyMessageDelayed(WHAT, DELETETIME);
+    }
+    public void stopAnimation() {
+        run = false;
+    }
+    private static class MyHandler extends Handler {
+        private int data = 0;
+        private final WeakReference<VivoView> vivoViewWeakReference;
+
+        public MyHandler(VivoView vivoView) {
+            vivoViewWeakReference = new WeakReference<VivoView>(vivoView);
+        }
+
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            VivoView vivoView = vivoViewWeakReference.get();
+            if (vivoView != null && vivoView.run) {
+
+                switch (msg.what) {
+                    case 0:
+                        if(data < 349){
+                            data +=10;
+                        }else {
+                            data = 0;
+                        }
+                        vivoView.setData(data);
+                        vivoView.startAnimation();
+
+                        break;
+                    default:
+                        break;
+
+                }
+                Log.d("TAG","working");
+            }
+        }
     }
 
 }
