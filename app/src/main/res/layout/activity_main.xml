@@ -23,14 +23,15 @@
                 android:id="@+id/vivo_cv"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_margin="30dp"/>
+                android:layout_margin="30dp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="@string/vivo_charge"
-                android:layout_marginLeft="50dp" />
+                android:layout_marginLeft="50dp"
+                android:text="@string/vivo_charge" />
         </LinearLayout>
 
         <View
@@ -49,14 +50,14 @@
                 android:id="@+id/meizu_cv"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_margin="30dp"/>
+                android:layout_margin="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="@string/meizu_charge"
-                android:layout_marginLeft="50dp" />
+                android:layout_marginLeft="50dp"
+                android:text="@string/meizu_charge" />
         </LinearLayout>
 
         <View
@@ -75,14 +76,14 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="30dp"
-                android:transitionName="share"/>
+                android:transitionName="share" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="@string/smart_charge"
-                android:layout_marginLeft="50dp" />
+                android:layout_marginLeft="50dp"
+                android:text="@string/smart_charge" />
         </LinearLayout>
     </LinearLayout>
 

@@ -5,14 +5,16 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ValueAnimator;
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
+import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.hjy.aboutview.R;
 import com.hjy.aboutview.bean.Point;
 import com.hjy.aboutview.callback.CoolViewCallback;
 import com.hjy.aboutview.utils.PointEvalutor;
@@ -34,28 +36,35 @@ public class CoolView extends View {
     //是否已经点击，多次点击无效；
     private boolean isPress = true;
     private CoolViewCallback callBack;
+    private Context context;
 
     public CoolView(Context context) {
         super(context);
+        this.context = context;
         init();
     }
 
     public CoolView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        this.context = context;
         init();
     }
 
     public CoolView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        this.context = context;
         init();
     }
 
     public CoolView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+        this.context = context;
         init();
     }
 
     private void init() {
+        TypedArray ta= context.obtainStyledAttributes(R.styleable.CoolView);
+
 
         currentPoint = new Point();
         ballPoint1 = new Point();
@@ -64,24 +73,24 @@ public class CoolView extends View {
 
         buttonPaint = new Paint();
         buttonPaint.setAntiAlias(true);
-        buttonPaint.setColor(Color.RED);
+        buttonPaint.setColor( ta.getColor(R.styleable.CoolView_buttonColor, ContextCompat.getColor(context,R.color.red)));
         buttonPaint.setStyle(Paint.Style.FILL);
 
         ballPaint1 = new Paint();
         ballPaint1.setAntiAlias(true);
         ballPaint1.setStyle(Paint.Style.FILL);
-        ballPaint1.setColor(Color.GREEN);
+        ballPaint1.setColor( ta.getColor(R.styleable.CoolView_firstColor,ContextCompat.getColor(context,R.color.green)));
 
         ballPaint2 = new Paint();
         ballPaint2.setAntiAlias(true);
         ballPaint2.setStyle(Paint.Style.FILL);
-        ballPaint2.setColor(Color.BLUE);
+        ballPaint2.setColor( ta.getColor(R.styleable.CoolView_secondColor,ContextCompat.getColor(context,R.color.blue)));
 
         ballPaint3 = new Paint();
         ballPaint3.setAntiAlias(true);
         ballPaint3.setStyle(Paint.Style.FILL);
-        ballPaint3.setColor(Color.BLACK);
-
+        ballPaint3.setColor( ta.getColor(R.styleable.CoolView_thirdColor,ContextCompat.getColor(context,R.color.gray)));
+        ta.recycle();
 
     }
 

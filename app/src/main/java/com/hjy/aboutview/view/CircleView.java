@@ -13,24 +13,29 @@ import android.view.View;
 public class CircleView extends View {
 
     private Paint paint = new Paint();
+    private Context context;
 
     public CircleView(Context context) {
         super(context);
+        this.context = context;
         init();
     }
 
     public CircleView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        this.context = context;
         init();
     }
 
     public CircleView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        this.context = context;
         init();
     }
 
     public CircleView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+        this.context = context;
         init();
     }
 
@@ -39,9 +44,10 @@ public class CircleView extends View {
         paint.setStyle(Paint.Style.FILL);
     }
 
-    public void setColor(int color){
+    public void setColor(int color) {
         paint.setColor(color);
     }
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
